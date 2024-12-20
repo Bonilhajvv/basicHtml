@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex; /* Define o corpo como um contêiner flexível */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    justify-content: center; /* Centraliza os elementos verticalmente */
+    min-height: 100vh; /* Garante que o corpo ocupe 100% da altura da janela */
+    margin: 0; /* Remove as margens padrão */
+}
+
+h1 {
+    text-align: center; /* Centraliza o texto dentro do h1 */
+}
+
+span {
+    color: purple;
+    border: 1px solid purple; /* Apenas para efeito visual */
+    padding: 10px;
+    text-align: center; /* Centraliza o texto dentro do span */
+}
+
+img {
+    display: block; /* Define o corpo como um contêiner block */
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 1px solid white; /* Apenas para efeito visual */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.containerA { /* Corrige o nome da classe */
+    display: flex; /* Define o contêiner como flexível */
+    flex-direction: row; /* Alinha os botões na horizontal */
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    align-items: center; /* Alinha os botões verticalmente */
+    gap: 15px; /* Adiciona espaço entre os botões */
+}
+
+a {
+    color: DodgerBlue;
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding: 10px 20px; /* Adiciona espaço interno para efeito de botão */
+    border: 1px solid DodgerBlue; /* Adiciona uma borda ao link */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s; /* Efeitos de transição */
+    display: inline-block; /* Necessário para centralização */
+    text-align: center; /* Centraliza o texto dentro do link */
+}
+
+a:hover {
+    background-color: purple; /* Altera o fundo no hover */
+    border: 1px solid purple; /* Adiciona uma borda ao link */
+    color: white; /* Altera a cor do texto no hover */
+}
